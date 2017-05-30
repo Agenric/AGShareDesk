@@ -7,36 +7,25 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AGShareDesk'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AGShareDesk.'
+    s.name             = 'AGShareDesk'
+    s.version          = '0.1.0'
+    s.summary          = 'AGShareDesk is a unified sharing desk for QQ、Wechat and WeiBo.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+    s.description      = <<-DESC
+                        AGShareDesk is a unified sharing desk whit QQ、QQZone、WeChatSession、WeChatTimeline、Weibo.
+                        DESC
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+    s.homepage         = 'https://github.com/agenric/AGShareDesk'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'Agenric' => 'AgenricWon@gmail.com' }
+    s.source           = { :git => 'https://github.com/agenric/AGShareDesk.git', :tag => s.version.to_s }
 
-  s.homepage         = 'https://github.com/agenric/AGShareDesk'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'agenric' => 'Agenric@foxmail.com' }
-  s.source           = { :git => 'https://github.com/agenric/AGShareDesk.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.ios.deployment_target = '8.0'
+    s.requires_arc = true
 
-  s.ios.deployment_target = '8.0'
+    s.source_files = 'AGShareDesk/Classes/**/*'
 
-  s.source_files = 'AGShareDesk/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AGShareDesk' => ['AGShareDesk/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'WechatOpenSDK'
+    s.dependency 'WeiboSDK'
+    s.dependency 'AGTencentOpenAPI', '~> 3.2.1'
 end

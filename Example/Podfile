@@ -1,4 +1,4 @@
-use_frameworks!
+#use_frameworks!
 
 target 'AGShareDesk_Example' do
   pod 'AGShareDesk', :path => '../'

@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14842CF58E14B4B91A7C0CEA97FD69CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		16BDD5070580061264FC9191A16BE168 /* WeChatPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B350C0940ADBE7C93B0C843992E7A82F /* WeChatPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7F3CCFCBE30D751441C6B6FCFF0401 /* WeiboPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82ED2B5026AAD58FECF49EF34C30D4 /* WeiboPlatform.m */; };
+		35C494EF68CFB5D0EE900B7CE927020F /* ShareMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EB8DA2C7A7E1542D8597682E8A85FD /* ShareMessageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36DD804A3AAFA7311642D88FE65F1F56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3871053F09B1800270EF4CF8EE6C1573 /* Pods-AGShareDesk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD253F5353F8A6AB7E1122DCC4DC37C2 /* Pods-AGShareDesk_Tests-dummy.m */; };
+		392F52ABD47DEE2934C0AE24CA46D899 /* TencentPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626398D1EEB2FEB8CE831B62427B0AD /* TencentPlatform.m */; };
+		4EF9C1DDDBDE5F48722CB255FB691F11 /* AGShareDesk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 854EDD766F2E20F9F629CA87C0F122E0 /* AGShareDesk-dummy.m */; };
+		8C88D9C84A907F4F1CF1B78A5540ECED /* TencentPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D27E1E1A59553A6F29088B9923A2293 /* TencentPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97AAC55DD25BAC9AB3E4B94FA0EBE775 /* Pods-AGShareDesk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE0BF8D578BF0C76FBD655FB06DA27 /* Pods-AGShareDesk_Example-dummy.m */; };
+		98142341A43290DF5EA663310F743808 /* AGShareDesk.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EF92855A5C299CE752F77BEED88F74 /* AGShareDesk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31B745C3A862266C5CD67FDBC6B1D15 /* WeiboPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 951FA7F9317B1384C7F89FFDF5B0AEE9 /* WeiboPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDB10DAFD1C3AEEF14D37F771C1B237C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C34FC5429ECD476433E9FF6105A0C069 /* WeChatPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EDE3481C352921A980EBBA99486857 /* WeChatPlatform.m */; };
+		CD477E8720211898DC8A00363AB1C551 /* ShareMessageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EC80D1C1117ABED008340038A588F3FC /* ShareMessageObject.m */; };
+		F7879680556C3C754239452B2BC2A5FB /* AGShareDesk.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F679CE27357B88622C46D055E6D791 /* AGShareDesk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC664E7F2BEE186B87D879F8A6A33F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B4BA05CE6A444B005B5611C4D68F67;
+			remoteInfo = AGShareDesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03945974741D6BA5C10F635F83426C99 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		054634739AC46ADC75F381CD8391E064 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = AGTencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		06663C31115840B1535A90889580DF83 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.7.7/libWeChatSDK.a; sourceTree = "<group>"; };
+		07B05323DC59EFAA2E63FB731FC22136 /* Pods-AGShareDesk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGShareDesk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0B7CBA2272E9E7AD5A247B7873674418 /* Pods-AGShareDesk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGShareDesk_Tests-resources.sh"; sourceTree = "<group>"; };
+		19EEFFD2B4C7CD12929578F7D88ECDA4 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		1BC15B458756FB7F3EAD425E94650DCF /* libAGShareDesk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAGShareDesk.a; path = libAGShareDesk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		203F90D48956AD6697128FF5C7E57D35 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		220931AEAF29CA574E3796E801E87062 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		3234D493D8CE0CB4A16A4CBAD2C13FB2 /* libPods-AGShareDesk_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AGShareDesk_Tests.a"; path = "libPods-AGShareDesk_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3626398D1EEB2FEB8CE831B62427B0AD /* TencentPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TencentPlatform.m; sourceTree = "<group>"; };
+		472592F94C6A187AB5FCEA92282323D0 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = libWeiboSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		588DA8C0C7628E886C8D7DE7B18F6F08 /* Pods-AGShareDesk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGShareDesk_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A355AD8687E0F03E688DBE15C9CAE01 /* AGShareDesk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGShareDesk-prefix.pch"; sourceTree = "<group>"; };
+		6DE0DB57EE9E17B3FFD2C5D06B600015 /* Pods-AGShareDesk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGShareDesk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7199803FEA8B4492D80C5F90F3A7FA63 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.7.7/WXApiObject.h; sourceTree = "<group>"; };
+		7285476493C8DB3973AE7F9906720649 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = libWeiboSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
+		72EB8DA2C7A7E1542D8597682E8A85FD /* ShareMessageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareMessageObject.h; sourceTree = "<group>"; };
+		7C598BB15FE3B436F7FDA42593803879 /* Pods-AGShareDesk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGShareDesk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		811BEA43518A1AB167E5C6298575D1DB /* Pods-AGShareDesk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGShareDesk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		835FFFF2F3871A80C6A2FC90DE09603D /* Pods-AGShareDesk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGShareDesk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		846DB7A0504F35E95594AD8DB4BD0F07 /* Pods-AGShareDesk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGShareDesk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		854EDD766F2E20F9F629CA87C0F122E0 /* AGShareDesk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGShareDesk-dummy.m"; sourceTree = "<group>"; };
+		872C450F357C6B55159070FE03F99811 /* Pods-AGShareDesk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGShareDesk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940D649141C3859045312461D5387765 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.7.7/WechatAuthSDK.h; sourceTree = "<group>"; };
+		951FA7F9317B1384C7F89FFDF5B0AEE9 /* WeiboPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeiboPlatform.h; sourceTree = "<group>"; };
+		95EF92855A5C299CE752F77BEED88F74 /* AGShareDesk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AGShareDesk.h; sourceTree = "<group>"; };
+		9D27E1E1A59553A6F29088B9923A2293 /* TencentPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentPlatform.h; sourceTree = "<group>"; };
+		9FAE0BF8D578BF0C76FBD655FB06DA27 /* Pods-AGShareDesk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGShareDesk_Example-dummy.m"; sourceTree = "<group>"; };
+		AF263FC7BDEA5843499CB87B4D1858DC /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "libWeiboSDK/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		B350C0940ADBE7C93B0C843992E7A82F /* WeChatPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeChatPlatform.h; sourceTree = "<group>"; };
+		B359C885F75249EA8D4E48AC0B954D41 /* AGShareDesk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGShareDesk.xcconfig; sourceTree = "<group>"; };
+		B9EDE3481C352921A980EBBA99486857 /* WeChatPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WeChatPlatform.m; sourceTree = "<group>"; };
+		BF84A781E888D7FCEFB3E9137A7D7593 /* Pods-AGShareDesk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGShareDesk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFFE754F9BAEB57D5FD6D58A9CC0E5E8 /* Pods-AGShareDesk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGShareDesk_Example-resources.sh"; sourceTree = "<group>"; };
+		C2A11CBBDEA29C584F6513DE1E75480D /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = libWeiboSDK/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		C2ECFA9D5E69391089C6C132763DB23F /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "libWeiboSDK/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		D5475CD9C45BCA3114C2B3149A8DA826 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = AGTencentOpenAPI/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		D9F9B5428B91F92E0599ACDCA54CF80C /* libPods-AGShareDesk_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AGShareDesk_Example.a"; path = "libPods-AGShareDesk_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA879E28D25C43431DB0AD20C83FF6A9 /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = libWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
+		E1F679CE27357B88622C46D055E6D791 /* AGShareDesk.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AGShareDesk.m; sourceTree = "<group>"; };
+		EC80D1C1117ABED008340038A588F3FC /* ShareMessageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareMessageObject.m; sourceTree = "<group>"; };
+		EF001F8098D6C802555DDC7159B354A9 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.7.7/WXApi.h; sourceTree = "<group>"; };
+		EF5CEEAB727F46E10DA4465FF46B4FBC /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "libWeiboSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		F5D4134A5DA9D394D28CB982E2A08B79 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		FB82ED2B5026AAD58FECF49EF34C30D4 /* WeiboPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WeiboPlatform.m; sourceTree = "<group>"; };
+		FD253F5353F8A6AB7E1122DCC4DC37C2 /* Pods-AGShareDesk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGShareDesk_Tests-dummy.m"; sourceTree = "<group>"; };
+		FF14AE498A6739F39293B032CF15AF52 /* Pods-AGShareDesk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGShareDesk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32988127B855D9DD19C88346A4C5BBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14842CF58E14B4B91A7C0CEA97FD69CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A3FB70B6FABC2444FFF50305F91263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB10DAFD1C3AEEF14D37F771C1B237C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC8BE2668C1E169AD5A8DBA8C570AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DD804A3AAFA7311642D88FE65F1F56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B289A60AF45EF2111C7B5F04B5E83D /* AGTencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				DE50E8DDC1F150AE01A92E0D264B4B89 /* Frameworks */,
+				1A7EA7B1E9A551BA8474AC066772E855 /* Resources */,
+			);
+			name = AGTencentOpenAPI;
+			path = AGTencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		1A7EA7B1E9A551BA8474AC066772E855 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				054634739AC46ADC75F381CD8391E064 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2391CC874A1D28D2A8ADEDA397D490DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				220931AEAF29CA574E3796E801E87062 /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		254AC3F5785A702BB5C1AB2EAAD32993 /* AGShareDesk */ = {
+			isa = PBXGroup;
+			children = (
+				A4E1D7F08D6156240F89AE74CB1D9452 /* AGShareDesk */,
+				AF4D0EBFBBBEF2FEFFB30A77853A954D /* Support Files */,
+			);
+			name = AGShareDesk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5123C660495089925153146E0C87F83D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06663C31115840B1535A90889580DF83 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D9453B7C6B57D97E4C7FBB50C5926E3 /* PlatformMessage */ = {
+			isa = PBXGroup;
+			children = (
+				9D27E1E1A59553A6F29088B9923A2293 /* TencentPlatform.h */,
+				3626398D1EEB2FEB8CE831B62427B0AD /* TencentPlatform.m */,
+				B350C0940ADBE7C93B0C843992E7A82F /* WeChatPlatform.h */,
+				B9EDE3481C352921A980EBBA99486857 /* WeChatPlatform.m */,
+				951FA7F9317B1384C7F89FFDF5B0AEE9 /* WeiboPlatform.h */,
+				FB82ED2B5026AAD58FECF49EF34C30D4 /* WeiboPlatform.m */,
+			);
+			name = PlatformMessage;
+			path = PlatformMessage;
+			sourceTree = "<group>";
+		};
+		7A816F5C1CC0F3DE0A4BFB91175700DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19EEFFD2B4C7CD12929578F7D88ECDA4 /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F25E351750739AEC7A9CE2496C7FD261 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8B45B3BB3B675776A23D3703AD1109EB /* Pods */,
+				DB394D8D4BB6E93B718C1381714FDD31 /* Products */,
+				B5E2502BECA08FD2183DE1E50D56BB96 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B45B3BB3B675776A23D3703AD1109EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10B289A60AF45EF2111C7B5F04B5E83D /* AGTencentOpenAPI */,
+				E83F664B0B4B52D5652A4D4CCBA92AFB /* WechatOpenSDK */,
+				E5D0F68C19A95DB0818F07DD054A3F26 /* WeiboSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E33D5D22D83ED4B75AEF76892BAD410 /* Pods-AGShareDesk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				835FFFF2F3871A80C6A2FC90DE09603D /* Pods-AGShareDesk_Example-acknowledgements.markdown */,
+				BF84A781E888D7FCEFB3E9137A7D7593 /* Pods-AGShareDesk_Example-acknowledgements.plist */,
+				9FAE0BF8D578BF0C76FBD655FB06DA27 /* Pods-AGShareDesk_Example-dummy.m */,
+				7C598BB15FE3B436F7FDA42593803879 /* Pods-AGShareDesk_Example-frameworks.sh */,
+				BFFE754F9BAEB57D5FD6D58A9CC0E5E8 /* Pods-AGShareDesk_Example-resources.sh */,
+				872C450F357C6B55159070FE03F99811 /* Pods-AGShareDesk_Example.debug.xcconfig */,
+				07B05323DC59EFAA2E63FB731FC22136 /* Pods-AGShareDesk_Example.release.xcconfig */,
+			);
+			name = "Pods-AGShareDesk_Example";
+			path = "Target Support Files/Pods-AGShareDesk_Example";
+			sourceTree = "<group>";
+		};
+		96CDD366878072025AAEC046F9B06B06 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95EF92855A5C299CE752F77BEED88F74 /* AGShareDesk.h */,
+				E1F679CE27357B88622C46D055E6D791 /* AGShareDesk.m */,
+				72EB8DA2C7A7E1542D8597682E8A85FD /* ShareMessageObject.h */,
+				EC80D1C1117ABED008340038A588F3FC /* ShareMessageObject.m */,
+				5D9453B7C6B57D97E4C7FBB50C5926E3 /* PlatformMessage */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A4E1D7F08D6156240F89AE74CB1D9452 /* AGShareDesk */ = {
+			isa = PBXGroup;
+			children = (
+				96CDD366878072025AAEC046F9B06B06 /* Classes */,
+			);
+			name = AGShareDesk;
+			path = AGShareDesk;
+			sourceTree = "<group>";
+		};
+		AF4D0EBFBBBEF2FEFFB30A77853A954D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B359C885F75249EA8D4E48AC0B954D41 /* AGShareDesk.xcconfig */,
+				854EDD766F2E20F9F629CA87C0F122E0 /* AGShareDesk-dummy.m */,
+				6A355AD8687E0F03E688DBE15C9CAE01 /* AGShareDesk-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AGShareDesk";
+			sourceTree = "<group>";
+		};
+		B5E2502BECA08FD2183DE1E50D56BB96 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E33D5D22D83ED4B75AEF76892BAD410 /* Pods-AGShareDesk_Example */,
+				CB9823C97E1D4C6AA49C9856E47F2079 /* Pods-AGShareDesk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB9823C97E1D4C6AA49C9856E47F2079 /* Pods-AGShareDesk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF14AE498A6739F39293B032CF15AF52 /* Pods-AGShareDesk_Tests-acknowledgements.markdown */,
+				811BEA43518A1AB167E5C6298575D1DB /* Pods-AGShareDesk_Tests-acknowledgements.plist */,
+				FD253F5353F8A6AB7E1122DCC4DC37C2 /* Pods-AGShareDesk_Tests-dummy.m */,
+				588DA8C0C7628E886C8D7DE7B18F6F08 /* Pods-AGShareDesk_Tests-frameworks.sh */,
+				0B7CBA2272E9E7AD5A247B7873674418 /* Pods-AGShareDesk_Tests-resources.sh */,
+				6DE0DB57EE9E17B3FFD2C5D06B600015 /* Pods-AGShareDesk_Tests.debug.xcconfig */,
+				846DB7A0504F35E95594AD8DB4BD0F07 /* Pods-AGShareDesk_Tests.release.xcconfig */,
+			);
+			name = "Pods-AGShareDesk_Tests";
+			path = "Target Support Files/Pods-AGShareDesk_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB394D8D4BB6E93B718C1381714FDD31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC15B458756FB7F3EAD425E94650DCF /* libAGShareDesk.a */,
+				D9F9B5428B91F92E0599ACDCA54CF80C /* libPods-AGShareDesk_Example.a */,
+				3234D493D8CE0CB4A16A4CBAD2C13FB2 /* libPods-AGShareDesk_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE50E8DDC1F150AE01A92E0D264B4B89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5475CD9C45BCA3114C2B3149A8DA826 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5D0F68C19A95DB0818F07DD054A3F26 /* WeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				203F90D48956AD6697128FF5C7E57D35 /* WBHttpRequest.h */,
+				C2ECFA9D5E69391089C6C132763DB23F /* WBHttpRequest+WeiboGame.h */,
+				F5D4134A5DA9D394D28CB982E2A08B79 /* WBHttpRequest+WeiboShare.h */,
+				EF5CEEAB727F46E10DA4465FF46B4FBC /* WBHttpRequest+WeiboToken.h */,
+				AF263FC7BDEA5843499CB87B4D1858DC /* WBHttpRequest+WeiboUser.h */,
+				7285476493C8DB3973AE7F9906720649 /* WBSDKBasicButton.h */,
+				C2A11CBBDEA29C584F6513DE1E75480D /* WBSDKCommentButton.h */,
+				472592F94C6A187AB5FCEA92282323D0 /* WBSDKRelationshipButton.h */,
+				03945974741D6BA5C10F635F83426C99 /* WeiboSDK.h */,
+				DA879E28D25C43431DB0AD20C83FF6A9 /* WeiboUser.h */,
+				7A816F5C1CC0F3DE0A4BFB91175700DB /* Frameworks */,
+				2391CC874A1D28D2A8ADEDA397D490DF /* Resources */,
+			);
+			name = WeiboSDK;
+			path = WeiboSDK;
+			sourceTree = "<group>";
+		};
+		E83F664B0B4B52D5652A4D4CCBA92AFB /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				940D649141C3859045312461D5387765 /* WechatAuthSDK.h */,
+				EF001F8098D6C802555DDC7159B354A9 /* WXApi.h */,
+				7199803FEA8B4492D80C5F90F3A7FA63 /* WXApiObject.h */,
+				5123C660495089925153146E0C87F83D /* Frameworks */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		F25E351750739AEC7A9CE2496C7FD261 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				254AC3F5785A702BB5C1AB2EAAD32993 /* AGShareDesk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5194D18328AE0AB438B80908F29242A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98142341A43290DF5EA663310F743808 /* AGShareDesk.h in Headers */,
+				35C494EF68CFB5D0EE900B7CE927020F /* ShareMessageObject.h in Headers */,
+				8C88D9C84A907F4F1CF1B78A5540ECED /* TencentPlatform.h in Headers */,
+				16BDD5070580061264FC9191A16BE168 /* WeChatPlatform.h in Headers */,
+				B31B745C3A862266C5CD67FDBC6B1D15 /* WeiboPlatform.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07B4BA05CE6A444B005B5611C4D68F67 /* AGShareDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CAE38D5323C38FB2E1D23C823CC880 /* Build configuration list for PBXNativeTarget "AGShareDesk" */;
+			buildPhases = (
+				82481930E8839D312ED7EFB1B456EC0B /* Sources */,
+				32988127B855D9DD19C88346A4C5BBFD /* Frameworks */,
+				5194D18328AE0AB438B80908F29242A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGShareDesk;
+			productName = AGShareDesk;
+			productReference = 1BC15B458756FB7F3EAD425E94650DCF /* libAGShareDesk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D98F54EC44157113C1288ACA241F1C1F /* Pods-AGShareDesk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863088FBAAA3D0E54DE08FF41D52B8E7 /* Build configuration list for PBXNativeTarget "Pods-AGShareDesk_Tests" */;
+			buildPhases = (
+				FDC98EEDE625A791CFDB32E865F11C34 /* Sources */,
+				8BC8BE2668C1E169AD5A8DBA8C570AF5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AGShareDesk_Tests";
+			productName = "Pods-AGShareDesk_Tests";
+			productReference = 3234D493D8CE0CB4A16A4CBAD2C13FB2 /* libPods-AGShareDesk_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FBC36451829AC9F1EBF4040CDC3C68AE /* Pods-AGShareDesk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B8D9F403F37CD65D2159797E955E46 /* Build configuration list for PBXNativeTarget "Pods-AGShareDesk_Example" */;
+			buildPhases = (
+				F8DB0E163FB2BBAD83433E2A7A21CF9F /* Sources */,
+				87A3FB70B6FABC2444FFF50305F91263 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078090AFAAA9E93030242A63548C0669 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGShareDesk_Example";
+			productName = "Pods-AGShareDesk_Example";
+			productReference = D9F9B5428B91F92E0599ACDCA54CF80C /* libPods-AGShareDesk_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DB394D8D4BB6E93B718C1381714FDD31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B4BA05CE6A444B005B5611C4D68F67 /* AGShareDesk */,
+				FBC36451829AC9F1EBF4040CDC3C68AE /* Pods-AGShareDesk_Example */,
+				D98F54EC44157113C1288ACA241F1C1F /* Pods-AGShareDesk_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82481930E8839D312ED7EFB1B456EC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF9C1DDDBDE5F48722CB255FB691F11 /* AGShareDesk-dummy.m in Sources */,
+				F7879680556C3C754239452B2BC2A5FB /* AGShareDesk.m in Sources */,
+				CD477E8720211898DC8A00363AB1C551 /* ShareMessageObject.m in Sources */,
+				392F52ABD47DEE2934C0AE24CA46D899 /* TencentPlatform.m in Sources */,
+				C34FC5429ECD476433E9FF6105A0C069 /* WeChatPlatform.m in Sources */,
+				1F7F3CCFCBE30D751441C6B6FCFF0401 /* WeiboPlatform.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DB0E163FB2BBAD83433E2A7A21CF9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AAC55DD25BAC9AB3E4B94FA0EBE775 /* Pods-AGShareDesk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC98EEDE625A791CFDB32E865F11C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3871053F09B1800270EF4CF8EE6C1573 /* Pods-AGShareDesk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078090AFAAA9E93030242A63548C0669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGShareDesk;
+			target = 07B4BA05CE6A444B005B5611C4D68F67 /* AGShareDesk */;
+			targetProxy = AC664E7F2BEE186B87D879F8A6A33F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		317EA0F9DA901294F26015B240CC74F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B359C885F75249EA8D4E48AC0B954D41 /* AGShareDesk.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGShareDesk/AGShareDesk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		43DF44714461E68D9AC42A5286DA3728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B05323DC59EFAA2E63FB731FC22136 /* Pods-AGShareDesk_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D795A1B521E2DBB4174ECC266562E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B359C885F75249EA8D4E48AC0B954D41 /* AGShareDesk.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGShareDesk/AGShareDesk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1900AA3D6DD402E08170FCA48DBDA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE0DB57EE9E17B3FFD2C5D06B600015 /* Pods-AGShareDesk_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A834DABB3FE919D96ED847BEE51BD5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872C450F357C6B55159070FE03F99811 /* Pods-AGShareDesk_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7264ADF69B6E687405945DA178222D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846DB7A0504F35E95594AD8DB4BD0F07 /* Pods-AGShareDesk_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08CAE38D5323C38FB2E1D23C823CC880 /* Build configuration list for PBXNativeTarget "AGShareDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317EA0F9DA901294F26015B240CC74F9 /* Debug */,
+				75D795A1B521E2DBB4174ECC266562E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B8D9F403F37CD65D2159797E955E46 /* Build configuration list for PBXNativeTarget "Pods-AGShareDesk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A834DABB3FE919D96ED847BEE51BD5FF /* Debug */,
+				43DF44714461E68D9AC42A5286DA3728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863088FBAAA3D0E54DE08FF41D52B8E7 /* Build configuration list for PBXNativeTarget "Pods-AGShareDesk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1900AA3D6DD402E08170FCA48DBDA08 /* Debug */,
+				F7264ADF69B6E687405945DA178222D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
