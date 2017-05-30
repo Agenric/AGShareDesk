@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AGShareDesk_Example' do
+  pod 'AGShareDesk', :path => '../'
+
+  target 'AGShareDesk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
