@@ -7,12 +7,13 @@
 //
 
 #import "AGAppDelegate.h"
+#import "AGShareDesk.h"
 
 @implementation AGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[AGShareDesk shareInstance] registerWithWeiboAppKey:@"1818950315" weChatAppKey:@"wx42e8d6a9776ab49c" tencentAppId:@"1105318793"];
     return YES;
 }
 
@@ -41,6 +42,21 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    [[AGShareDesk shareInstance] handleApplication:app withOpenURL:url options:options];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    [[AGShareDesk shareInstance] handleApplication:application withOpenURL:url options:nil];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    [[AGShareDesk shareInstance] handleApplication:application withOpenURL:url options:nil];
+    return YES;
 }
 
 @end

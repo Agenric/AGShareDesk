@@ -1,0 +1,25 @@
+PODS:
+  - AGShareDesk (0.1.0):
+    - AGTencentOpenAPI (~> 3.2.1)
+    - WechatOpenSDK
+    - WeiboSDK
+  - AGTencentOpenAPI (3.2.1)
+  - WechatOpenSDK (1.7.7)
+  - WeiboSDK (3.1.3)
+
+DEPENDENCIES:
+  - AGShareDesk (from `../`)
+
+EXTERNAL SOURCES:
+  AGShareDesk:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AGShareDesk: 781b6d0984fe67f65938e9735ff90a556a28ed8e
+  AGTencentOpenAPI: d985feee5834bf65710da11db692ffc8ddee1c3e
+  WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
+  WeiboSDK: acb067053668102cf07d01aa7604350162c2e466
+
+PODFILE CHECKSUM: facb0c12e12c278731937c9dc9a151f3493e20ff
+
+COCOAPODS: 1.2.1

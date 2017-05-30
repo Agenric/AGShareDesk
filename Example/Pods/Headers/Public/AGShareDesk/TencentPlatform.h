@@ -1,0 +1,1 @@
+../../../../../AGShareDesk/Classes/PlatformMessage/TencentPlatform.h
