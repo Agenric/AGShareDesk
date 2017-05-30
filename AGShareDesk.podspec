@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'AGShareDesk'
-    s.version          = '0.1.0'
+    s.version          = '1.0.0'
     s.summary          = 'AGShareDesk is a unified sharing desk for QQ、Wechat and WeiBo.'
 
     s.description      = <<-DESC
@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
 
     s.dependency 'WechatOpenSDK'
     s.dependency 'WeiboSDK'
-    s.dependency 'AGTencentOpenAPI', '~> 3.2.1'
+    s.dependency 'AGTencentOpenAPI'
 end
