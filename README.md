@@ -61,3 +61,22 @@ AGShareDesk is available under the MIT license. See the LICENSE file for more in
 // buttonIndex为选中的分享平台
 [[AGShareDesk shareInstance] shareToChannel:buttonIndex withMessgaeObject:[ShareMessageObject messageWithTitle:@"分享标题" content:@"分享内容" link:@"http://www.baidu.com" logoIcon:[UIImage imageNamed:@"shareIcon"]] afterDelegate:self];
 ```
+
+
+
+## Problem
+
+### 如果你在安装时发现此错误：
+
+```objc
+ [!] The 'Pods-WeiBoTest' target has transitive dependencies that include static binaries:(省略)
+```
+
+尝试在Podfile文件顶部添加此代码：
+
+```ruby
+pre_install do |installer|
+    def installer.verify_no_static_framework_transitive_dependencies; end
+end
+```
+
