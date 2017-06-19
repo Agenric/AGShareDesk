@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TencentOpenAPI/QQApiInterface.h>
-#import <TencentOpenAPI/TencentOAuth.h>
+#import <AGTencentOpenAPI/TencentOpenAPI/QQApiInterface.h>
+#import <AGTencentOpenAPI/TencentOpenAPI/TencentOAuth.h>
 #import "ShareMessageObject.h"
 
 typedef NS_ENUM(NSInteger, TencentScene) {

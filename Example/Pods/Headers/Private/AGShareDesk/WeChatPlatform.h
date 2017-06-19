@@ -1,1 +1,0 @@
-../../../../../AGShareDesk/Classes/PlatformMessage/WeChatPlatform.h
