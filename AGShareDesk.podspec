@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'AGShareDesk'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'AGShareDesk is a unified sharing desk for QQ、Wechat and WeiBo.'
 
     s.description      = <<-DESC
